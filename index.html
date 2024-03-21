@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--This means to use the best/latest version of Internet Explorer-->
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0"> <!--Makes sure that in different devices the webpage is displayer properly and scaled-->
+        <link rel="stylesheet" href ="style.css">
+        <link href="https://fonts.cdnfonts.com/css/press-start" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/press-start');
+        </style>
+    
+  
+
+        
+        <title>Birthday Website</title>
+    </head>
+
+    <body>
+        <h1>Whose birthday is it!</h1>
+        <div class="image">
+            <img src="silly.jpg" alt="silly">
+        </div>
+        <a href="happy.html">
+        <button> Mine </button>
+        </a>
+        <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Not Mine</button>
+        <script>
+        function moveButton() {
+            var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+            var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+            document.getElementById('noButton').style.left = `${x}px`;
+            document.getElementById('noButton').style.top = `${y}px`;
+        } 
+        </script>
+    </body>
+
+
+</html>
