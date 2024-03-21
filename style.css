@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#896978 ;
+}
+
+h1{
+    color:#EFD5C3;
+    text-align:center; 
+    font-size:35px;
+    margin-top: 11em;
+    margin-left: 3em;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Press Start', sans-serif;
+    font-family: 'Press Start K', sans-serif;
+    cursor:grab;
+}
+
+
+.image img{
+    height:300px;
+    width: 300px;
+    /*Makes it into a circle and the margin adjusts it by making it go up and down*/
+    clip-path: circle();
+    float: left;
+    margin-left: 19em;
+    margin-top: -10%;
+    box-shadow: 0 0 60px rgb(0,0,0); 
+    
+}
+button{
+    font-size:25px;
+    background-color:#EFD5C3; 
+    color:#896978;
+    border-radius:20px;
+    width:140px;
+    height:90px;    
+    font-family: 'Press Start', sans-serif;
+    font-family: 'Press Start K', sans-serif;
+    margin-top: 120px; 
+    box-shadow:5px 5px 5px black;
+}
+button:hover{
+    background-color:#5E4350 ;
+    color:#EFD5C3;
+}
+
+#noButton{
+    position:absolute;
+    transition: 0.5s;
+    position: absolute;top: 442.5px;left:1150px;
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        width: 100%;
+        margin: 0; /* Reset margins */
+        padding: 10px; /* Add padding to create space */
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        margin-left: 5px;
+    }
+
+    button{
+        width: 50%;
+        margin-bottom: 100px;
+        height: 65px;
+    }
+}
+
+/*Iphone one I think and its the smallest it will get when I stretch my website */
+@media screen and (max-width: 600px) {
+    h1{
+        margin-top: 35%;
+        padding-bottom: 5px;
+        margin-left: 1px;
+    }
+    .image img {
+        width:220px;
+        height:220px;
+        position:relative;top:70px;right:155px;
+    }
+    button{
+       
+       position: relative;top:0px;left: 30px;
+    }
+    #noButton{
+        position:absolute;top:470.5px;left:300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image img {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .image img {
+        margin-left: 5px;
+    }
+}
