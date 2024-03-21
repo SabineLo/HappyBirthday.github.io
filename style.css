@@ -83,14 +83,14 @@ button:hover{
     .image img {
         width:220px;
         height:220px;
-        position:relative;top:70px;right:155px;
+        position:relative;top:70px;right:169px;
     }
     button{
        
        position: relative;top:0px;left: 30px;
     }
     #noButton{
-        position:absolute;top:470.5px;left:300px;
+        position:absolute;top:473.5px;left:300px;
     }
 }
 
