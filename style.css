@@ -109,18 +109,18 @@ button:hover{
     h1{
         margin-top: 29%;
         padding-bottom: 2px;
-        margin-left: 35px;
+        margin-left: 29px;
     }
     .image img {
         width:220px;
         height:220px;
-        position:relative;top:70px;right:180px;
+        position:relative;top:70px;right:175px;
     }
     button{
 
        position: relative;top:0px;left: 28px;
     }
     #noButton{
-        position:absolute;top:464.5px;left:260px;
+        position:absolute;top:461.5px;left:260px;
     }
 }
