@@ -91,8 +91,7 @@ button:hover{
        position: relative;top:0px;left: 30px;
     }
     #noButton{
-        position:absolute;top:473.5px;left:300px;
-        position:absolute;top:485.5px;left:289px;
+        position:absolute;top:484.5px;left:288px;
     }
 }
 
