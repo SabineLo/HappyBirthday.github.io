@@ -76,8 +76,8 @@ button:hover{
 /*Iphone one I think and its the smallest it will get when I stretch my website */
 @media screen and (max-width: 600px) {
     h1{
-        margin-top: 35%;
-        padding-bottom: 5px;
+        margin-top: 29%;
+        padding-bottom: 2px;
         margin-left: 80px;
     }
     .image img {
@@ -103,5 +103,24 @@ button:hover{
 @media (min-width: 768px) and (max-width: 992px) {
     .image img {
         margin-left: 5px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    h1{
+        margin-top: 29%;
+        padding-bottom: 2px;
+        margin-left: 80px;
+    }
+    .image img {
+        width:220px;
+        height:220px;
+        position:relative;top:70px;right:188px;
+    }
+    button{
+
+       position: relative;top:0px;left: 30px;
+    }
+    #noButton{
+        position:absolute;top:484.5px;left:280px;
     }
 }
